@@ -5,7 +5,7 @@ import { MessageBusService } from '../../thaumaturgy/message-bus.service';
 @Component({
   selector: 'app-test-b',
   templateUrl: './test-b.component.html',
-  styleUrls: ['./test-b.component.css']
+  styleUrls: ['./test-b.component.scss']
 })
 export class TestBComponent implements OnInit, OnDestroy {
   private subscription;
